@@ -1,2 +1,2 @@
 #!/bin/bash
-.html
+touch /tmp/file_0.html
