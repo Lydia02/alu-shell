@@ -1,4 +1,2 @@
 #!/bin/bash
 touch /tmp/file_0.html
-touch /tmp/file_1.html
-touch /tmp/file_2.html
