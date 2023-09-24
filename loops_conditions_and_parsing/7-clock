@@ -4,9 +4,9 @@
 # Use nested while loops to display hours and minutes
 hour=0
 while [ $hour -lt 12 ]; do
+	echo "Hour:$hour
     minute=1
     while [ $minute -le 59 ]; do
-        echo "Hour: $hour"
         echo $minute
         ((minute++))
     done
