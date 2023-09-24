@@ -7,7 +7,7 @@ file_path="/etc/passwd"
 # Check if the file exists
 if [ -e "$file_path" ]; then
     # Use 'read' to read lines from /etc/passwd and format the narrative
-    while IFS=: read -r username _ userid _ _ home_directory _; do
+    while IFS=: read -r username_userid__ home_directory_; do
         echo "Username: $username"
         echo "User ID: $userid"
         echo "Home Directory: $home_directory"
