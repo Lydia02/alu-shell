@@ -5,17 +5,17 @@ count=1
 while [ $count -le 20 ]; do
     case $count in
         4)
-            echo "4 and then bad luck from China"
+            echo -e "$count\nbad and then bad luck from China"
             ;;
         9)
-            echo "9 and then bad luck from Japan"
+            echo -e "$count\n and then bad luck from Japan"
             ;;
         17)
-            echo "17 and then bad luck from Italy"
+            echo -e "$count\n and then bad luck from Italy"
             ;;
         *)
             echo $count
-            ;;
+            
     esac
-    count=$((count + 1))
+   ((count ++))
 done
