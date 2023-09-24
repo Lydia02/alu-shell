@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# This script groups visitors by IP and HTTP status code, displaying the results in descending order of occurrence using awk.
+
+# Use awk to group, sort, and display
+awk '{print $1, $9}' apache-access.log | sort -V | uniq -c | sort -n | perl -e 'print reverse <>'
+
