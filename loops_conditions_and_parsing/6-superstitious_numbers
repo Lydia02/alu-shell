@@ -5,13 +5,13 @@ count=1
 while [ $count -le 20 ]; do
     case $count in
         4)
-            echo -e "$count\nbad and then bad luck from China"
+            echo -e "$count\n bad luck from China"
             ;;
         9)
-            echo -e "$count\n and then bad luck from Japan"
+            echo -e "$count\n bad luck from Japan"
             ;;
         17)
-            echo -e "$count\n and then bad luck from Italy"
+            echo -e "$count\n bad luck from Italy"
             ;;
         *)
             echo $count
